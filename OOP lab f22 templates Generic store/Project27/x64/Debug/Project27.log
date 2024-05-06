@@ -1,0 +1,34 @@
+﻿  DictionaryPair.cpp
+  DictionaryPiar_Implementation.cpp
+  GenericDictionary.cpp
+  GenericDictionary_Implementation.cpp
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\GenericDictionary.cpp(20,1): error C2819: type 'DictionaryPair<T,R>' does not have an overloaded member 'operator ->'
+          with
+          [
+              T=String,
+              R=int
+          ]
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\GenericDictionary.h(9,2): message : see declaration of 'DictionaryPair<T,R>'
+          with
+          [
+              T=String,
+              R=int
+          ]
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\GenericDictionary.cpp(20,1): message : did you intend to use '.' instead?
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\GenericDictionary.cpp(15,1): message : while compiling class template member function 'void GenericDictionary<String,int>::addPair(T,R)'
+          with
+          [
+              T=String,
+              R=int
+          ]
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\GenericDictionary_Implementation.cpp(4,46): message : see reference to class template instantiation 'GenericDictionary<String,int>' being compiled
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\GenericDictionary.cpp(20,1): error C2232: '->DictionaryPair<T,R>::setKey': left operand has 'class' type, use '.'
+          with
+          [
+              T=String,
+              R=int
+          ]
+  Source.cpp
+  String.cpp
+C:\Users\Administrator\source\repos\Project27 LAB 13 GENRIC Store\Project27\String.cpp(706,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
