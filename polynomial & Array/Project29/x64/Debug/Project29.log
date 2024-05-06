@@ -1,0 +1,10 @@
+﻿  Polynomial_Class.cpp
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(114,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(133,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(148,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(210,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(217,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(222,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(230,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Project29\Project29\Polynomial_Class.cpp(235,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Project29.vcxproj -> C:\Users\Administrator\Desktop\Project29\x64\Debug\Project29.exe
