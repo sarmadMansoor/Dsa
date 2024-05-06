@@ -1,0 +1,24 @@
+﻿  Matrix.cpp
+  Source.cpp
+  template.cpp
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\template.cpp(6,24): warning C4661: 'void Set<int>::displayPowerSet(void) const': no suitable definition provided for explicit template instantiation request
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Set.h(31,7): message : see declaration of 'Set<int>::displayPowerSet'
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Array.cpp(13,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Array.cpp(6,1): message : while compiling class template member function 'Array<int>::Array(std::initializer_list<T>)'
+          with
+          [
+              T=int
+          ]
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\template.cpp(5,26): message : see reference to class template instantiation 'Array<int>' being compiled
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Set.cpp(12,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Set.cpp(10,36): message : while compiling class template member function 'Set<int>::Set(std::initializer_list<T>)'
+          with
+          [
+              T=int
+          ]
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\template.cpp(6,24): message : see reference to class template instantiation 'Set<int>' being compiled
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Set.cpp(75): warning C4661: 'void Set<int>::displayPowerSet(void) const': no suitable definition provided for explicit template instantiation request
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Set.h(31,7): message : see declaration of 'Set<int>::displayPowerSet'
+  Generating Code...
+C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\Set.cpp(145): warning C4715: 'Set<int>::isCallingSubSet': not all control paths return a value
+  TemplatesArray&Matrix.vcxproj -> C:\Users\KK ENTERPRISES\Desktop\OOP\TemplatesArray&Matrix\x64\Debug\TemplatesArray&Matrix.exe
