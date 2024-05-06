@@ -1,0 +1,12 @@
+﻿  Book.cpp
+  CD.cpp
+  Magazine.cpp
+  Media.cpp
+  Shelf.cpp
+  Source.cpp
+  String.cpp
+D:\repos\oop practice 13 task 2\oop practice 13 task 2\String.cpp(706,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+D:\repos\oop practice 13 task 2\oop practice 13 task 2\Shelf.cpp(77): warning C4715: 'Shelf::operator=': not all control paths return a value
+D:\repos\oop practice 13 task 2\oop practice 13 task 2\Shelf.cpp(67): warning C4172: returning address of local variable or temporary: a
+  oop practice 13 task 2.vcxproj -> D:\repos\oop practice 13 task 2\x64\Debug\oop practice 13 task 2.exe
