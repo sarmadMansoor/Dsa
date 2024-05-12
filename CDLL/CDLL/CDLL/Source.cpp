@@ -272,21 +272,25 @@ public:
 		}
 		head = tail;
 	}
-	bool targetSum(int target) {
-		if (!head || !head->next) // If list is empty or has only one node
-			return false;
-
-		Node<T>* current = head;
-		do {
-			Node<T>* second = current->next;
-			while (second != current) {
-				if (current->data + second->data == target)
-					return true;
-				second = second->next;
+	bool targetSum(int target)         
+	{
+		Node<T>* left = head;
+		Node<T>* right = head->prev;
+		while (left != right)
+		{
+			if (left->data + right->data < target)
+			{
+				left = left->next;
 			}
-			current = current->next;
-		} while (current != head);
-
+			else if (left->data + right->data > target)
+			{
+				right = right->prev;
+			}
+			else
+			{
+				return true;
+			}
+		}
 		return false;
 	}
 
